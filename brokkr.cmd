@@ -1,0 +1,3 @@
+@echo off
+rem Runs Brokkr: brokkr <command> [options] <file>...
+node "%~dp0src\cli.ts" %*
